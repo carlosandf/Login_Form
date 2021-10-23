@@ -143,4 +143,9 @@ button:active {
         width: 100%;
         border-radius: 0;
     }
+    button:active {
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 600;
+    }
 }
